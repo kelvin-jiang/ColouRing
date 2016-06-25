@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">ColouRing</string>
+    <string name="action_settings">Settings</string>
+    <string name="classic_mode_button">Classic</string>
+    <string name="casual_mode_button">Casual Mode</string>
+    <string name="tutorial_button">How to Play</string>
+    <string name="options_button">Options</string>
+
+    <string name="coming_soon_text">This game mode is still in development.\nLook forward to it in the near future!</string>
+
+    <string name="tutorial_text_1">ColouRing is a simple yet addicting game to play.\n\nLets get started!\n\n\nSWIPE TO PROCEED >>></string>
+    <string name="tutorial_text_2">The objective of ColouRing is to form the best possible colour gradient from the inner circle to the outer ring.</string>
+    <string name="tutorial_text_3">In order to select a colour, tap on one of the four sections of each ring. The other sections of that ring will be grayed out.</string>
+    <string name="tutorial_text_4">Continue to work your way out of the circle. Keep in mind that the selected path must be connected between rings.</string>
+    <string name="tutorial_text_5">When you reach the outer ring, you will receive a message at the bottom of the screen if the gradient you selected is correct.  </string>
+
+    <string name="about_button">About</string>
+    <string name="about_text">
+        There\'re many things we\'d like to put here, but most of you probably won\'t even look at this page.
+        For those of you reading this, we, the developers, sincerely hope you enjoyed our game.\n\n
+        Team:\n
+        Lead Algorithm Developer: Kelvin Jiang\n
+        Lead Graphic Designer: Patrick Zhang\n
+        Special thanks to Angelina Jin for the app icon design!
+    </string>
+
+    <string name="title_activity_classic_game">ClassicGameActivity</string>
+    <string name="title_activity_casual_game">CasualGameActivity</string>
+    <string name="title_activity_options">OptionsActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+
+    <string name="paused_title">PAUSED</string>
+    <string name="music_text">Music</string>
+    <string name="sfx_text">SFX</string>
+    <string name="resume_button">Resume</string>
+    <string name="home_button">Home</string>
+    <string name="restart_button">Restart</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_page_view">PageViewActivity</string>
+
+    <string name="endgame_text">Congratulations! You passed all 5 rounds in</string>
+
+</resources>

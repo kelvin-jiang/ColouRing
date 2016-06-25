@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="layout.EndFragment">
+
+    <TextView
+        android:id="@+id/game_text"
+        android:text="@string/endgame_text"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/game_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/restart_button"
+        android:text="Restart"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="81dp"
+        android:background="#04536E"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:layout_below="@id/game_text"
+        android:layout_alignLeft="@+id/home_button"
+        android:layout_alignStart="@+id/home_button"
+        android:layout_alignRight="@+id/home_button"
+        android:layout_alignEnd="@+id/home_button"/>
+
+    <Button
+        android:id="@+id/home_button"
+        android:text="Main Menu"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="81dp"
+        android:background="#04536E"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:layout_below="@+id/restart_button"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
