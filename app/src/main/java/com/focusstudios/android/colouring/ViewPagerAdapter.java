@@ -11,10 +11,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class ViewPagerAdapter extends PagerAdapter {
-	Context context;
-	String[] text;
-	int[] image;
-	LayoutInflater inflater;
+
+	private Context context;
+	private String[] text;
+	private int[] image;
 
 	public ViewPagerAdapter(Context context, String[] text, int[] image) {
 		this.context = context;
@@ -34,33 +34,29 @@ public class ViewPagerAdapter extends PagerAdapter {
 
 	@Override
 	public Object instantiateItem(ViewGroup container, int position) {
-		TextView Text;
-		ImageView Image;
-		Typeface font = Typeface.createFromAsset(context.getAssets(), "Optien.ttf");
 
-		inflater = (LayoutInflater) context
-				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		View itemView = inflater.inflate(R.layout.tutorial_item, container,
-				false);
+		Typeface font = Typeface.createFromAsset(context.getAssets(), "Exo.otf");
 
-		Text = (TextView) itemView.findViewById(R.id.string);
+		LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+		View itemView = inflater.inflate(R.layout.tutorial_item, container, false);
+
+		TextView Text = (TextView) itemView.findViewById(R.id.string);
 		Text.setText(text[position]);
 		Text.setTypeface(font);
 
-		Image = (ImageView) itemView.findViewById(R.id.image);
+		ImageView Image = (ImageView) itemView.findViewById(R.id.image);
 		Image.setAdjustViewBounds(true);
-		if(position != 0) {
+		if (position != 0)
 			Image.setImageResource(image[position]);
-		}
 
-		(container).addView(itemView);
+		container.addView(itemView);
 		return itemView;
 	}
 
 	@Override
 	public void destroyItem(ViewGroup container, int position, Object object) {
-		// Remove viewpager_item.xml from ViewPager
-		(container).removeView((RelativeLayout) object);
-
+		// remove viewpager_item.xml from ViewPager
+		container.removeView((RelativeLayout) object);
 	}
 }

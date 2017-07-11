@@ -3,22 +3,36 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:context="layout.EndFragment">
+                tools:context="com.focusstudios.android.colouring.fragments.EndFragment">
 
     <TextView
         android:id="@+id/game_text"
-        android:text="@string/endgame_text"
         android:textSize="30dp"
-        android:textColor="#000000"
+        android:textColor="#329beb"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="10dp"/>
 
     <TextView
-        android:id="@+id/game_time"
+        android:id="@+id/end_time_text"
+        android:textSize="80dp"
+        android:textColor="#f09440"
+        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game_text"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/high_score_text"
+        android:textSize="20dp"
+        android:textColor="#329beb"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/end_time_text"
+        android:layout_marginTop="10dp"/>
 
     <Button
         android:id="@+id/restart_button"
@@ -26,14 +40,14 @@
         android:textSize="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="81dp"
+        android:layout_marginTop="20dp"
         android:background="#04536E"
         android:textColor="#FFFFFF"
-        android:paddingLeft="40dp"
-        android:paddingRight="40dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
         android:textAlignment="gravity"
         android:gravity="center"
-        android:layout_below="@id/game_text"
+        android:layout_below="@id/high_score_text"
         android:layout_alignLeft="@+id/home_button"
         android:layout_alignStart="@+id/home_button"
         android:layout_alignRight="@+id/home_button"
@@ -45,11 +59,11 @@
         android:textSize="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="81dp"
+        android:layout_marginTop="20dp"
         android:background="#04536E"
         android:textColor="#FFFFFF"
-        android:paddingLeft="40dp"
-        android:paddingRight="40dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
         android:textAlignment="gravity"
         android:gravity="center"
         android:layout_below="@+id/restart_button"

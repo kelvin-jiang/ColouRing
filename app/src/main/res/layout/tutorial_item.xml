@@ -9,7 +9,7 @@
         android:id="@+id/string"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
+        android:textSize="24dp"
         android:gravity="center"
         android:layout_marginTop="10dp"/>
 

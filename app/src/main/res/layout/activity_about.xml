@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.focusstudios.android.colouring.AboutActivity">
+    tools:context="com.focusstudios.android.colouring.activities.AboutActivity">
 
     <TextView
         android:id="@+id/about_info_text"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:text="@string/about_text"/>
+        android:gravity="left"
+        android:layout_centerInParent="true"
+        android:textSize="18dp"
+        android:text="@string/about_text"
+        android:padding="10dp"/>
 
 </RelativeLayout>

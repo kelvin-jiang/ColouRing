@@ -3,112 +3,86 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:context="layout.PauseFragment">
+                tools:context="com.focusstudios.android.colouring.fragments.PauseFragment">
 
     <TextView
         android:id="@+id/paused_title"
         android:text="@string/paused_title"
         android:textSize="80dp"
-        android:textColor="#000000"
-        android:gravity="center"
-        android:layout_width="match_parent"
+        android:textColor="#329beb"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/music_text"
         android:text="@string/music_text"
-        android:textSize="35dp"
-        android:textColor="#ff704d"
+        android:textSize="40dp"
+        android:textColor="#f09440"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/paused_title"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        />
+        android:layout_alignLeft="@id/paused_title"
+        android:layout_marginLeft="10dp"/>
 
     <ToggleButton
         android:id="@+id/music_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#000000"
         android:layout_below="@id/paused_title"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="30dp"
-        android:textColor="#000000"/>
+        android:layout_alignBottom="@id/music_text"
+        android:layout_alignRight="@id/paused_title"
+        android:layout_marginRight="10dp"/>
 
     <TextView
         android:id="@+id/sfx_text"
         android:text="@string/sfx_text"
-        android:textSize="35dp"
-        android:textColor="#ff704d"
+        android:textSize="40dp"
+        android:textColor="#f09440"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/music_text"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"/>
+        android:layout_alignLeft="@id/music_text"
+        android:layout_marginTop="10dp"/>
 
     <ToggleButton
         android:id="@+id/sfx_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#000000"
         android:layout_below="@id/music_button"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="30dp"
-        android:textColor="#000000"/>
-
-    <Button
-        android:id="@+id/resume_button"
-        android:text="@string/resume_button"
-        android:textSize="30dp"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/sfx_button"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:background="#04536E"
-        android:textColor="#FFFFFF"/>
-
-    <Button
-        android:id="@+id/home_button"
-        android:text="Main Menu"
-        android:textSize="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/resume_button"
-        android:layout_marginTop="30dp"
-        android:background="#04536E"
-        android:textColor="#FFFFFF"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="5dp"
-        android:paddingLeft="40dp"
-        android:textAlignment="gravity"
-        android:gravity="center"
-        android:paddingRight="40dp"
-        android:layout_weight="1"/>
+        android:layout_alignBottom="@id/sfx_text"
+        android:layout_alignRight="@id/music_button"
+        android:layout_marginTop="10dp"/>
 
     <Button
         android:id="@+id/restart_button"
-        android:text="Restart"
-        android:textSize="20dp"
+        android:text="@string/restart_button"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#04536E"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/resume_button"
-        android:layout_marginTop="30dp"
-        android:background="#04536E"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/paused_title"
+        android:layout_alignLeft="@id/paused_title"
+        android:layout_alignRight="@id/paused_title"/>
+
+    <Button
+        android:id="@+id/home_button"
+        android:text="@string/home_button"
+        android:textSize="30dp"
         android:textColor="#FFFFFF"
-        android:layout_toRightOf="@id/home_button"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="5dp"
-        android:layout_alignRight="@+id/sfx_button"
-        android:layout_alignEnd="@+id/sfx_button"
-        android:textAlignment="gravity"
-        android:gravity="center"
-        android:layout_weight="1"/>
+        android:background="#04536E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/paused_title"
+        android:layout_alignLeft="@id/paused_title"
+        android:layout_alignRight="@id/paused_title"/>
 
 </RelativeLayout>

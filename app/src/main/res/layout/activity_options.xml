@@ -4,74 +4,83 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.focusstudios.android.colouring.OptionsActivity">
+    tools:context="com.focusstudios.android.colouring.activities.OptionsActivity">
 
     <TextView
-        android:id="@+id/options_text"
-        android:text="Options"
+        android:id="@+id/options_title"
+        android:text="@string/options_title"
         android:textSize="80dp"
-        android:textColor="#000000"
-        android:layout_width="match_parent"
+        android:textColor="#329beb"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/music_text"
         android:text="@string/music_text"
-        android:textSize="35dp"
+        android:textSize="40dp"
         android:textColor="#f09440"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@id/options_text"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="50dp"
-        />
+        android:layout_below="@id/options_title"
+        android:layout_alignLeft="@id/options_title"
+        android:layout_marginLeft="10dp"/>
 
     <ToggleButton
         android:id="@+id/music_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/options_text"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="50dp"
-        android:textColor="#000000"/>
+        android:textColor="#000000"
+        android:layout_below="@id/options_title"
+        android:layout_alignBottom="@id/music_text"
+        android:layout_alignRight="@id/options_title"
+        android:layout_marginRight="10dp"/>
 
     <TextView
         android:id="@+id/sfx_text"
         android:text="@string/sfx_text"
-        android:textSize="35dp"
+        android:textSize="40dp"
         android:textColor="#f09440"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/music_text"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="50dp"/>
+        android:layout_alignLeft="@id/music_text"
+        android:layout_marginTop="20dp"/>
 
     <ToggleButton
         android:id="@+id/sfx_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#000000"
         android:layout_below="@id/music_button"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="50dp"
-        android:textColor="#000000"/>
+        android:layout_alignBottom="@id/sfx_text"
+        android:layout_alignRight="@id/music_button"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/options_high_score_text"
+        android:textColor="#329beb"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/options_title"/>
 
     <Button
         android:id="@+id/reset_button"
-        android:layout_width="match_parent"
+        android:text="@string/reset_button"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="#04536E"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:gravity="center"
-        android:text="Reset Scores"
-        android:layout_below="@id/sfx_button"
-        android:padding="20dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="100dp"/>
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/options_title"
+        android:layout_alignLeft="@id/options_title"
+        android:layout_alignRight="@id/options_title"/>
 
 </RelativeLayout>
