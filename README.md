@@ -24,7 +24,7 @@ By treating each colour as a vector in RGB-space, we can determine the gradient 
 The other colours are determined by choosing points on a plane normal to the vector formed by the gradient colours.
 
 ## Credits
-Developed by Kelvin Jiang and Patrick Zhang
+Developed by [Kelvin Jiang](https://github.com/infinitecold) and [Patrick Zhang](https://github.com/Yanfii/)
 
 App icon by Angelina Jin
 
