@@ -8,7 +8,9 @@ Do you remember the days when colour gradient backgrounds were in style? **Colou
 <a href='https://play.google.com/store/apps/details?id=com.focusstudios.android.colouring'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width=200 /></a>
 
 ## How to Play
+<p align="center">
 <img src="/app/src/main/res/drawable-xxhdpi/screenshot1.jpg" width="300"> <img src="/app/src/main/res/drawable-xxhdpi/screenshot3.jpg" width="300">
+</p>
 
 The objective of ColouRing is to form the best possible colour gradient from the inner circle to the outer ring. The center circle will be a predetermined colour, which you do not need to tap. Tap on one of the four sections of each ring to select a colour. The other sections of that ring will be grayed out.
 
