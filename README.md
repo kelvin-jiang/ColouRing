@@ -18,7 +18,7 @@ Continue to work your way out of the circle. Keep in mind that the selected path
 
 If you have chosen the correct path, you will proceed to the next round. Keep your eye on the clock and complete all 10 rounds as fast as you can. Will you be the next ColouRing master?
 
-## Summary of the colour-production algorithm
+## Summary of the Colour-Production Algorithm
 By treating each colour as a vector in RGB-space, we can determine the gradient between two colours through linear interpolation.
 
 The other colours are determined by choosing points on a plane normal to the vector formed by the gradient colours.
