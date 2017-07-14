@@ -8,8 +8,7 @@ Do you remember the days when colour gradient backgrounds were in style? **Colou
 <a href='https://play.google.com/store/apps/details?id=com.focusstudios.android.colouring'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width=200 /></a>
 
 ## How to Play
-![alt test](https://github.com/infinitecold/ColouRing/blob/master/app/src/main/res/drawable-xxhdpi/screenshot1.jpg)
-![Screenshot](/app/src/main/res/drawable-xxhdpi/screenshot1) ![Screenshot](/app/src/main/res/drawable-xxhdpi/screenshot3)
+<img src="/app/src/main/res/drawable-xxhdpi/screenshot1.jpg" width="300"> <img src="/app/src/main/res/drawable-xxhdpi/screenshot3.jpg" width="300">
 
 The objective of ColouRing is to form the best possible colour gradient from the inner circle to the outer ring. The center circle will be a predetermined colour, which you do not need to tap. Tap on one of the four sections of each ring to select a colour. The other sections of that ring will be grayed out.
 
@@ -30,10 +29,7 @@ App icon by Angelina Jin
 Music by [Kevin MacLeod](http://incompetech.com)
 
 ## License
-> Copyright 2017 Focus Studios
-
-> Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-
-> [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
-
->Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+> Copyright 2017 Focus Studios<p>
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at<p>
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)<p>
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
